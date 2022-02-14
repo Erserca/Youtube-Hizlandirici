@@ -1,0 +1,25 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<title>SpeedUp</title>
+<meta charset="UTF-8">
+<script>
+      window.addEventListener( 'load', function(){
+     var ToolbarUIItemProperties = {
+    disabled: false,
+    title: "Youtube Video Hızlandırıcısı",
+    icon: "icon_18.png",
+    popup: {
+             href: "popup.html",
+             width: 150,
+             height: 75
+               },
+     }
+     theButton = opera.contexts.toolbar.createItem(ToolbarUIItemProperties);
+      opera.contexts.toolbar.addItem(theButton);
+}, false );
+</script>
+</head>
+<body>
+</body>
+</html>
